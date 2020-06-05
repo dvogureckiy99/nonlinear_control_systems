@@ -1,13 +1,13 @@
 function  create_report(report_path,Cellname_section)
-%создает основной tex файл для генерации отчёта
+%СЃРѕР·РґР°РµС‚ РѕСЃРЅРѕРІРЅРѕР№ tex С„Р°Р№Р» РґР»СЏ РіРµРЅРµСЂР°С†РёРё РѕС‚С‡С‘С‚Р°
 fid = fopen(report_path,'w','l','UTF-8'); 
-fprintf(fid,'%s\r','\include{common/setup}  % общие настройки шаблона');   
+fprintf(fid,'%s\r','\include{common/setup}  % РѕР±С‰РёРµ РЅР°СЃС‚СЂРѕР№РєРё С€Р°Р±Р»РѕРЅР°');   
 fprintf(fid,'\r%s\r','\begin{document}');   
-fprintf(fid,'\r%s\r','\include{common/title_page}  % титульный лист');
+fprintf(fid,'\r%s\r','\include{common/title_page}  % С‚РёС‚СѓР»СЊРЅС‹Р№ Р»РёСЃС‚');
 fprintf(fid,'\r%s\r',['\include{components/',Cellname_section{1},'/',Cellname_section{1},'}']);
 for i=2:length(Cellname_section)
     fprintf(fid,'%s\r',['\include{components/',Cellname_section{i},'/',Cellname_section{i},'}']);
 end
 fprintf(fid,'\r%s\r','\end{document}');
-fclose all; % необходимо для обработки файла , удаление и т.д.
+fclose all; % РЅРµРѕР±С…РѕРґРёРјРѕ РґР»СЏ РѕР±СЂР°Р±РѕС‚РєРё С„Р°Р№Р»Р° , СѓРґР°Р»РµРЅРёРµ Рё С‚.Рґ.
 end

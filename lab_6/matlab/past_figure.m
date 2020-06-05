@@ -1,12 +1,12 @@
 function past_figure(PATH,section_name,name_subsection,FIGS)
-%вставка необходимых рисунков
-disp('обработка past figure');
-%% Создание файлов
-path_subsection = [PATH.Texcomponents,section_name,'\'];%путь к subsection files
+%РІСЃС‚Р°РІРєР° РЅРµРѕР±С…РѕРґРёРјС‹С… СЂРёСЃСѓРЅРєРѕРІ
+disp('РѕР±СЂР°Р±РѕС‚РєР° past figure');
+%% РЎРѕР·РґР°РЅРёРµ С„Р°Р№Р»РѕРІ
+path_subsection = [PATH.Texcomponents,section_name,'\'];%РїСѓС‚СЊ Рє subsection files
 file_path=[path_subsection ,name_subsection,'.tex'];
 file_path = join(file_path);
 fid = fopen(file_path,'w','l','UTF-8');
-%% вставка всех картинок
+%% РІСЃС‚Р°РІРєР° РІСЃРµС… РєР°СЂС‚РёРЅРѕРє
 count_figs=length(FIGS.names);
     for i=1:count_figs
         figure_name=FIGS.names{i};
@@ -14,5 +14,5 @@ count_figs=length(FIGS.names);
         description=FIGS.description{i};
         tex_past_figure(fid,figure_path,figure_name,description,0.7);
     end
-fclose(fid); % необходимо для обработки файла , удаление и т.д.
+fclose(fid); % РЅРµРѕР±С…РѕРґРёРјРѕ РґР»СЏ РѕР±СЂР°Р±РѕС‚РєРё С„Р°Р№Р»Р° , СѓРґР°Р»РµРЅРёРµ Рё С‚.Рґ.
 end

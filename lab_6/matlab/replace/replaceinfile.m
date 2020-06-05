@@ -11,8 +11,8 @@ function [s, msg] = replaceinfile(str1, str2, infile, outfile)
 % [s, msg] = replaceinfile(str1, str2)
 %    opens gui for the infile, replaces str1 with str2 in infile, original file is saved as "infile.bak"
 %
-% in:  str1      string to be replaced строка для замены
-%      str2      string to replace with строка для замены
+% in:  str1      string to be replaced СЃС‚СЂРѕРєР° РґР»СЏ Р·Р°РјРµРЅС‹
+%      str2      string to replace with СЃС‚СЂРѕРєР° РґР»СЏ Р·Р°РјРµРЅС‹
 %      infile    file to search in
 %      outfile   outputfile (optional) if '-nobak'
 %

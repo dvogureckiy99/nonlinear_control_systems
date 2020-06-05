@@ -11,7 +11,7 @@
 	- [Главный файл](Tex/report.tex)
 	- Общие файли:
 		+ [Настройка параметров для компиляции и 
-			подключение модулей](Tex/common/setup).
+			подключение модулей](Tex/common/setup.tex).
 		+ [Оформление титульной страницы](Tex/common/title_page.tex).
 	- [Наполнение отчета](Tex/components/SYSTEMS_WITH_VARIABLE_STRUCTURE/):
 		

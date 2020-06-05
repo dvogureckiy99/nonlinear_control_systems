@@ -1,42 +1,42 @@
 function FIGS = system_variable_structure2(InitialConditions,PATH,FIGS)
-name_system = 'sim_variable_structure2';                 %имя схемы
+name_system = 'sim_variable_structure2';                 %РёРјСЏ СЃС…РµРјС‹
 
-%имя и путь графика для Latex
-% фазовые траектории
-figure_name = [strrep(name_system,'sim_',''),'_tau1'];%имя графика
-figure_file_path=['images/',figure_name];% путь к графику
+%РёРјСЏ Рё РїСѓС‚СЊ РіСЂР°С„РёРєР° РґР»СЏ Latex
+% С„Р°Р·РѕРІС‹Рµ С‚СЂР°РµРєС‚РѕСЂРёРё
+figure_name = [strrep(name_system,'sim_',''),'_tau1'];%РёРјСЏ РіСЂР°С„РёРєР°
+figure_file_path=['images/',figure_name];% РїСѓС‚СЊ Рє РіСЂР°С„РёРєСѓ
 figure_file_path = join(figure_file_path);
 FIGS.names{4} = figure_name ;
 FIGS.path{4}=figure_file_path;
-FIGS.description{4}=' Фазовые траектории для системы с переменной структурой с разными начальными условиями($\tau_1$).';
+FIGS.description{4}=' Р¤Р°Р·РѕРІС‹Рµ С‚СЂР°РµРєС‚РѕСЂРёРё РґР»СЏ СЃРёСЃС‚РµРјС‹ СЃ РїРµСЂРµРјРµРЅРЅРѕР№ СЃС‚СЂСѓРєС‚СѓСЂРѕР№ СЃ СЂР°Р·РЅС‹РјРё РЅР°С‡Р°Р»СЊРЅС‹РјРё СѓСЃР»РѕРІРёСЏРјРё($\tau_1$).';
 
-% Переменные состояния
-figure_name = [strrep(name_system,'sim_',''),'_sys_tau1'];%имя графика
-figure_file_path=['images/',figure_name];% путь к графику
+% РџРµСЂРµРјРµРЅРЅС‹Рµ СЃРѕСЃС‚РѕСЏРЅРёСЏ
+figure_name = [strrep(name_system,'sim_',''),'_sys_tau1'];%РёРјСЏ РіСЂР°С„РёРєР°
+figure_file_path=['images/',figure_name];% РїСѓС‚СЊ Рє РіСЂР°С„РёРєСѓ
 figure_file_path = join(figure_file_path);
 FIGS.names{5} = figure_name ;
 FIGS.path{5}=figure_file_path;
-FIGS.description{5}=' Графики изменения переменных состояния($\tau_1$).';
+FIGS.description{5}=' Р“СЂР°С„РёРєРё РёР·РјРµРЅРµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… СЃРѕСЃС‚РѕСЏРЅРёСЏ($\tau_1$).';
 
-% фазовые траектории
-figure_name = [strrep(name_system,'sim_',''),'_tau2'];%имя графика
-figure_file_path=['images/',figure_name];% путь к графику
+% С„Р°Р·РѕРІС‹Рµ С‚СЂР°РµРєС‚РѕСЂРёРё
+figure_name = [strrep(name_system,'sim_',''),'_tau2'];%РёРјСЏ РіСЂР°С„РёРєР°
+figure_file_path=['images/',figure_name];% РїСѓС‚СЊ Рє РіСЂР°С„РёРєСѓ
 figure_file_path = join(figure_file_path);
 FIGS.names{6} = figure_name ;
 FIGS.path{6}=figure_file_path;
-FIGS.description{6}=' Фазовые траектории для системы с переменной структурой с разными начальными условиями($\tau_2$).';
-% Переменные состояния
-figure_name = [strrep(name_system,'sim_',''),'_sys_tau2'];%имя графика
-figure_file_path=['images/',figure_name];% путь к графику
+FIGS.description{6}=' Р¤Р°Р·РѕРІС‹Рµ С‚СЂР°РµРєС‚РѕСЂРёРё РґР»СЏ СЃРёСЃС‚РµРјС‹ СЃ РїРµСЂРµРјРµРЅРЅРѕР№ СЃС‚СЂСѓРєС‚СѓСЂРѕР№ СЃ СЂР°Р·РЅС‹РјРё РЅР°С‡Р°Р»СЊРЅС‹РјРё СѓСЃР»РѕРІРёСЏРјРё($\tau_2$).';
+% РџРµСЂРµРјРµРЅРЅС‹Рµ СЃРѕСЃС‚РѕСЏРЅРёСЏ
+figure_name = [strrep(name_system,'sim_',''),'_sys_tau2'];%РёРјСЏ РіСЂР°С„РёРєР°
+figure_file_path=['images/',figure_name];% РїСѓС‚СЊ Рє РіСЂР°С„РёРєСѓ
 figure_file_path = join(figure_file_path);
 FIGS.names{7} = figure_name ;
 FIGS.path{7}=figure_file_path;
-FIGS.description{7}=' Графики изменения переменных состояния($\tau_2$).';
-handle = load_system(name_system); %загрузка схемы
+FIGS.description{7}=' Р“СЂР°С„РёРєРё РёР·РјРµРЅРµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… СЃРѕСЃС‚РѕСЏРЅРёСЏ($\tau_2$).';
+handle = load_system(name_system); %Р·Р°РіСЂСѓР·РєР° СЃС…РµРјС‹
 
-%установка параметров
-tau(1)=sqrt(InitialConditions.k)*2;%условие колебаний
-tau(2)=sqrt(InitialConditions.k)/2;%условие апериодическое
+%СѓСЃС‚Р°РЅРѕРІРєР° РїР°СЂР°РјРµС‚СЂРѕРІ
+tau(1)=sqrt(InitialConditions.k)*2;%СѓСЃР»РѕРІРёРµ РєРѕР»РµР±Р°РЅРёР№
+tau(2)=sqrt(InitialConditions.k)/2;%СѓСЃР»РѕРІРёРµ Р°РїРµСЂРёРѕРґРёС‡РµСЃРєРѕРµ
 k1 = 1;
 k2 =-1;
 x0 = 0;
@@ -47,15 +47,15 @@ Cellfigparam{2}='black-';
 Cellfigparam{3}='black--';
 ymax=0;
 ymin=0;
-for j=1:2 %проводим эксперимент при 2 tau 
+for j=1:2 %РїСЂРѕРІРѕРґРёРј СЌРєСЃРїРµСЂРёРјРµРЅС‚ РїСЂРё 2 tau 
     Cellfig{2} = figure('Units', 'normalized', 'OuterPosition', [0 0 1 1],'PaperOrientation','Landscape');
     Cellfig{3} = figure('Units', 'normalized', 'OuterPosition', [0 0 1 1],'PaperOrientation','Landscape');
     for k=0:2
         x0=0.1*k;
        y0=x0;
 
-    %перенос переменных в основную базу переменных
-    assignin('base','end_time',20);%------------------------------------------------------------------время симуляции
+    %РїРµСЂРµРЅРѕСЃ РїРµСЂРµРјРµРЅРЅС‹С… РІ РѕСЃРЅРѕРІРЅСѓСЋ Р±Р°Р·Сѓ РїРµСЂРµРјРµРЅРЅС‹С…
+    assignin('base','end_time',20);%------------------------------------------------------------------РІСЂРµРјСЏ СЃРёРјСѓР»СЏС†РёРё
     assignin('base','k1',k1);
     assignin('base','k2',k2);
     assignin('base','tau',tau(j));
@@ -67,12 +67,12 @@ for j=1:2 %проводим эксперимент при 2 tau
         ,'SolverResetMethod','robust','Solver','ode113','SolverType','Fixed-step','FixedStep','FStep',...
         'SaveFormat','Array','SaveOutput','off','ReturnWorkspaceOutputs','off')
 
-    %возвращает сигналы в массиве b в п7орядке согласно номерам портов
+    %РІРѕР·РІСЂР°С‰Р°РµС‚ СЃРёРіРЅР°Р»С‹ РІ РјР°СЃСЃРёРІРµ b РІ Рї7РѕСЂСЏРґРєРµ СЃРѕРіР»Р°СЃРЅРѕ РЅРѕРјРµСЂР°Рј РїРѕСЂС‚РѕРІ
     [t,~,x,y] = sim(name_system);
     assignin('base','x',x);
     assignin('base','y',y);
 
-    %расчёт максимума и минимума  y из всех значений
+    %СЂР°СЃС‡С‘С‚ РјР°РєСЃРёРјСѓРјР° Рё РјРёРЅРёРјСѓРјР°  y РёР· РІСЃРµС… Р·РЅР°С‡РµРЅРёР№
     if ymax<max(y)
     ymax=max(y);
     end
@@ -83,29 +83,29 @@ for j=1:2 %проводим эксперимент при 2 tau
     plot(x,y,Cellfigparam{k+1},'LineWidth',1);grid on, hold on
     if k==2
         step=(ymax-ymin)/21;
-        plot([ymin/(-sqrt(InitialConditions.k)) ymax/(-sqrt(InitialConditions.k))],[ymin ymax],'k:','LineWidth',1);%строим прямую сепаратрисы седловой траектории
+        plot([ymin/(-sqrt(InitialConditions.k)) ymax/(-sqrt(InitialConditions.k))],[ymin ymax],'k:','LineWidth',1);%СЃС‚СЂРѕРёРј РїСЂСЏРјСѓСЋ СЃРµРїР°СЂР°С‚СЂРёСЃС‹ СЃРµРґР»РѕРІРѕР№ С‚СЂР°РµРєС‚РѕСЂРёРё
         if k~=0
         txt = ['$$y\,=\,-\,\sqrt{k}\,x$$'];   
-        text(ymax/1.7/(-sqrt(InitialConditions.k)), ymax/1.7+step ,txt,'Interpreter','latex'); %подпись
+        text(ymax/1.7/(-sqrt(InitialConditions.k)), ymax/1.7+step ,txt,'Interpreter','latex'); %РїРѕРґРїРёСЃСЊ
         end
-        plot([ymin/(-tau(j)) ymax/(-tau(j))],[ymin ymax],'k:','LineWidth',1);%строим прямую линией скольжения
+        plot([ymin/(-tau(j)) ymax/(-tau(j))],[ymin ymax],'k:','LineWidth',1);%СЃС‚СЂРѕРёРј РїСЂСЏРјСѓСЋ Р»РёРЅРёРµР№ СЃРєРѕР»СЊР¶РµРЅРёСЏ
         if k~=0
             if j==1
                 txt = ['$$y\,=\,-\,\tau_1\,x$$'];  
             else
                 txt = ['$$y\,=\,-\,\tau_2\,x$$']; 
             end
-        text(ymax/1.5/(-tau(j)), ymax/1.5+step ,txt,'Interpreter','latex'); %подпись
+        text(ymax/1.5/(-tau(j)), ymax/1.5+step ,txt,'Interpreter','latex'); %РїРѕРґРїРёСЃСЊ
         end
         xlabel('x'),ylabel('y(x)=dx/dt')
         title(['$$\tau_',num2str(j,0),'=',num2str(tau(j),3),'$$'],'Interpreter','latex');  
     end
-    % legend( ['ПХ по скорости с нелинейным элементом' ]...
+    % legend( ['РџРҐ РїРѕ СЃРєРѕСЂРѕСЃС‚Рё СЃ РЅРµР»РёРЅРµР№РЅС‹Рј СЌР»РµРјРµРЅС‚РѕРј' ]...
     %     'Location','southoutside','Box','off' ) 
     plot(x(1),y(1),'kx','MarkerFaceColor','k','MarkerSize',10);grid on, hold on
 
     % p(1).LineWidth = 2;
-    %graph_variable_structure1(x,y,t,PATH,figure_name);%строит график
+    %graph_variable_structure1(x,y,t,PATH,figure_name);%СЃС‚СЂРѕРёС‚ РіСЂР°С„РёРє
 
     figure(Cellfig{3});%target figure
     subplot(1,2,1);
@@ -121,11 +121,11 @@ for j=1:2 %проводим эксперимент при 2 tau
     end
     prints(FIGS.names{4+j*2-2},PATH.images,Cellfig{2}); %save to pdf and crop with dos
     prints(FIGS.names{5+j*2-2},PATH.images,Cellfig{3}); %save to pdf and crop with dos
-    close(Cellfig{2}); %закрываем , чтобы не засорять память
-    close(Cellfig{3}); %закрываем , чтобы не засорять память
+    close(Cellfig{2}); %Р·Р°РєСЂС‹РІР°РµРј , С‡С‚РѕР±С‹ РЅРµ Р·Р°СЃРѕСЂСЏС‚СЊ РїР°РјСЏС‚СЊ
+    close(Cellfig{3}); %Р·Р°РєСЂС‹РІР°РµРј , С‡С‚РѕР±С‹ РЅРµ Р·Р°СЃРѕСЂСЏС‚СЊ РїР°РјСЏС‚СЊ
 end
 %% 
-%закрытие системы
+%Р·Р°РєСЂС‹С‚РёРµ СЃРёСЃС‚РµРјС‹
 save_system(handle);
 close_system(handle);
 end

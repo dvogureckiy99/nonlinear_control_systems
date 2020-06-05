@@ -1,19 +1,19 @@
 function graph_variable_structure1(x,y,t,PATH,figure_name)
-%строит график
- set(0,'DefaultAxesFontSize',14,'DefaultAxesFontName','Times New Roman');%шрифт
+%СЃС‚СЂРѕРёС‚ РіСЂР°С„РёРє
+ set(0,'DefaultAxesFontSize',14,'DefaultAxesFontName','Times New Roman');%С€СЂРёС„С‚
  set(0,'DefaultTextFontSize',14,'DefaultTextFontName','Times New Roman'); %
  
 fig=figure('Units', 'normalized', 'OuterPosition', [0 0 1 1],'PaperOrientation','Landscape');
  
 p(1)=plot(x,y,'black-');grid on
 xlabel('x'),ylabel('y(x)=dx/dt')
-% legend( ['ПХ по скорости с нелинейным элементом' ]...
+% legend( ['РџРҐ РїРѕ СЃРєРѕСЂРѕСЃС‚Рё СЃ РЅРµР»РёРЅРµР№РЅС‹Рј СЌР»РµРјРµРЅС‚РѕРј' ]...
 %     'Location','southoutside','Box','off' ) 
 
 p(1).LineWidth = 2;
 
 prints(figure_name,PATH.images); %save to pdf and crop with dos 
-close(fig); %закрываем , чтобы не засорять память
+close(fig); %Р·Р°РєСЂС‹РІР°РµРј , С‡С‚РѕР±С‹ РЅРµ Р·Р°СЃРѕСЂСЏС‚СЊ РїР°РјСЏС‚СЊ
 %open ([PATH.images,figure_name,'.pdf']);
 
 end

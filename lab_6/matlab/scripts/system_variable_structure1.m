@@ -1,38 +1,38 @@
 function FIGS = system_variable_structure1(PATH)
-name_system = 'sim_variable_structure1';                 %имя схемы
+name_system = 'sim_variable_structure1';                 %РёРјСЏ СЃС…РµРјС‹
 
-%имя и путь рисунка схемы для Latex
-% картинка схемы
+%РёРјСЏ Рё РїСѓС‚СЊ СЂРёСЃСѓРЅРєР° СЃС…РµРјС‹ РґР»СЏ Latex
+% РєР°СЂС‚РёРЅРєР° СЃС…РµРјС‹
 figure_name = name_system;
 figure_file_path=['images/',figure_name];%
 figure_file_path = join(figure_file_path);
 Cellfig_names{1} = figure_name ;
 Cellfig_path{1}=figure_file_path;
-Cellfig_description{1}=' Стурктурная схема системы с переменной структурой.';
+Cellfig_description{1}=' РЎС‚СѓСЂРєС‚СѓСЂРЅР°СЏ СЃС…РµРјР° СЃРёСЃС‚РµРјС‹ СЃ РїРµСЂРµРјРµРЅРЅРѕР№ СЃС‚СЂСѓРєС‚СѓСЂРѕР№.';
 
-%имя и путь графика для Latex
-% фазовые траектории
-figure_name = strrep(name_system,'sim_','');%имя графика
-figure_file_path=['images/',figure_name];% путь к графику
+%РёРјСЏ Рё РїСѓС‚СЊ РіСЂР°С„РёРєР° РґР»СЏ Latex
+% С„Р°Р·РѕРІС‹Рµ С‚СЂР°РµРєС‚РѕСЂРёРё
+figure_name = strrep(name_system,'sim_','');%РёРјСЏ РіСЂР°С„РёРєР°
+figure_file_path=['images/',figure_name];% РїСѓС‚СЊ Рє РіСЂР°С„РёРєСѓ
 figure_file_path = join(figure_file_path);
 Cellfig_names{2} = figure_name ;
 Cellfig_path{2}=figure_file_path;
-Cellfig_description{2}=' Фазовые траектории для системы с переменной структурой с разными начальными условиями.';
+Cellfig_description{2}=' Р¤Р°Р·РѕРІС‹Рµ С‚СЂР°РµРєС‚РѕСЂРёРё РґР»СЏ СЃРёСЃС‚РµРјС‹ СЃ РїРµСЂРµРјРµРЅРЅРѕР№ СЃС‚СЂСѓРєС‚СѓСЂРѕР№ СЃ СЂР°Р·РЅС‹РјРё РЅР°С‡Р°Р»СЊРЅС‹РјРё СѓСЃР»РѕРІРёСЏРјРё.';
 
-% Переменные состояния
-figure_name = [strrep(name_system,'sim_',''),'_sys'];%имя графика
-figure_file_path=['images/',figure_name];% путь к графику
+% РџРµСЂРµРјРµРЅРЅС‹Рµ СЃРѕСЃС‚РѕСЏРЅРёСЏ
+figure_name = [strrep(name_system,'sim_',''),'_sys'];%РёРјСЏ РіСЂР°С„РёРєР°
+figure_file_path=['images/',figure_name];% РїСѓС‚СЊ Рє РіСЂР°С„РёРєСѓ
 figure_file_path = join(figure_file_path);
 Cellfig_names{3} = figure_name ;
 Cellfig_path{3}=figure_file_path;
-Cellfig_description{3}=' Графики изменения переменных состояния.';
+Cellfig_description{3}=' Р“СЂР°С„РёРєРё РёР·РјРµРЅРµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… СЃРѕСЃС‚РѕСЏРЅРёСЏ.';
 
-handle = load_system(name_system); %загрузка схемы
+handle = load_system(name_system); %Р·Р°РіСЂСѓР·РєР° СЃС…РµРјС‹
 
-% Сохранение рисунка схемы
+% РЎРѕС…СЂР°РЅРµРЅРёРµ СЂРёСЃСѓРЅРєР° СЃС…РµРјС‹
 prints(name_system,PATH.images); %save to pdf and crop with dos
 
-%установка параметров
+%СѓСЃС‚Р°РЅРѕРІРєР° РїР°СЂР°РјРµС‚СЂРѕРІ
 tau = 0;
 k1 = 3;
 k2 =0.8;
@@ -45,8 +45,8 @@ for k=0:2
     x0=0.1*k;
    y0=x0;
     
-%перенос переменных в основную базу переменных
-assignin('base','end_time',10);%------------------------------------------------------------------время симуляции
+%РїРµСЂРµРЅРѕСЃ РїРµСЂРµРјРµРЅРЅС‹С… РІ РѕСЃРЅРѕРІРЅСѓСЋ Р±Р°Р·Сѓ РїРµСЂРµРјРµРЅРЅС‹С…
+assignin('base','end_time',10);%------------------------------------------------------------------РІСЂРµРјСЏ СЃРёРјСѓР»СЏС†РёРё
 assignin('base','k1',k1);
 assignin('base','k2',k2);
 assignin('base','tau',tau);
@@ -58,7 +58,7 @@ set_param(handle,'StopTime','end_time' ,'SolverPrmCheckMsg','warning'...
     ,'SolverResetMethod','robust','Solver','ode113','SolverType','Fixed-step','FixedStep','FStep',...
     'SaveFormat','Array','SaveOutput','off','ReturnWorkspaceOutputs','off')
 
-%возвращает сигналы в массиве b в п7орядке согласно номерам портов
+%РІРѕР·РІСЂР°С‰Р°РµС‚ СЃРёРіРЅР°Р»С‹ РІ РјР°СЃСЃРёРІРµ b РІ Рї7РѕСЂСЏРґРєРµ СЃРѕРіР»Р°СЃРЅРѕ РЅРѕРјРµСЂР°Рј РїРѕСЂС‚РѕРІ
 [t,~,x,y] = sim(name_system);
 assignin('base','x',x);
 assignin('base','y',y);
@@ -66,12 +66,12 @@ assignin('base','y',y);
 figure(Cellfig{2});%target figure
 plot(x,y,'black-','LineWidth',1);grid on, hold on
 xlabel('x'),ylabel('y(x)=dx/dt')
-% legend( ['ПХ по скорости с нелинейным элементом' ]...
+% legend( ['РџРҐ РїРѕ СЃРєРѕСЂРѕСЃС‚Рё СЃ РЅРµР»РёРЅРµР№РЅС‹Рј СЌР»РµРјРµРЅС‚РѕРј' ]...
 %     'Location','southoutside','Box','off' ) 
 plot(x(1),y(1),'kx','MarkerFaceColor','k','MarkerSize',10);grid on, hold on
 
 % p(1).LineWidth = 2;
-%graph_variable_structure1(x,y,t,PATH,figure_name);%строит график
+%graph_variable_structure1(x,y,t,PATH,figure_name);%СЃС‚СЂРѕРёС‚ РіСЂР°С„РёРє
 
 figure(Cellfig{3});%target figure
 subplot(1,2,1);
@@ -87,10 +87,10 @@ xlabel('t'),ylabel('x')
 end
 prints(Cellfig_names{2},PATH.images,Cellfig{2}); %save to pdf and crop with dos
 prints(Cellfig_names{3},PATH.images,Cellfig{3}); %save to pdf and crop with dos
-close(Cellfig{2}); %закрываем , чтобы не засорять память
-close(Cellfig{3}); %закрываем , чтобы не засорять память
+close(Cellfig{2}); %Р·Р°РєСЂС‹РІР°РµРј , С‡С‚РѕР±С‹ РЅРµ Р·Р°СЃРѕСЂСЏС‚СЊ РїР°РјСЏС‚СЊ
+close(Cellfig{3}); %Р·Р°РєСЂС‹РІР°РµРј , С‡С‚РѕР±С‹ РЅРµ Р·Р°СЃРѕСЂСЏС‚СЊ РїР°РјСЏС‚СЊ
 %% 
-%закрытие системы
+%Р·Р°РєСЂС‹С‚РёРµ СЃРёСЃС‚РµРјС‹
 save_system(handle);
 close_system(handle);
 
