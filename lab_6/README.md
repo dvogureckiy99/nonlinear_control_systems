@@ -8,11 +8,11 @@
 	
 1. Код отчета на языке Latex разделен на несколько файлов:
 
-	- [Главный файл] (Tex/report.tex)
+	- [Главный файл](Tex/report.tex)
 	- Общие файли:
 		+ [Настройка параметров для компиляции и 
-			подключение модулей] (Tex/common/setup).
-		+ [Оформление титульной страницы] (Tex/common/title_page.tex).
+			подключение модулей](Tex/common/setup).
+		+ [Оформление титульной страницы](Tex/common/title_page.tex).
 	- [Наполнение отчета](Tex/components/SYSTEMS_WITH_VARIABLE_STRUCTURE/):
 		
 1. Скрипты на языке MATLAB 
@@ -28,6 +28,6 @@
 	+ Для реализации вспомогательных функций созданы:
 		- [вставка необходимых рисунков](matlab/past_figure.m)
 		- Быстрое написание LaTex команд:
-			+ [just make a text string into latex document named by fid](Latex_command/latex_tex.m)
-			+ [Past image in tex document](Latex_command/tex_past_figure.m)
+			+ [just make a text string into latex document named by fid](matlab/scripts/Latex_command/latex_tex.m)
+			+ [Past image in tex document](matlab/scripts/Latex_command/tex_past_figure.m)
 			
