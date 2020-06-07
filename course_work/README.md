@@ -31,5 +31,5 @@
 		- Быстрое написание LaTex команд:
 			+ [just make a text string into latex document named by fid](matlab/scripts/Latex_command/latex_text.m)
 			+ [Past one image in tex document](matlab/scripts/Latex_command/text_past_figure.m)
-			+ [вставка нескольких необходимых рисунков](matlab/scripts/Latex_command/past_figure.m)			
+			+ [вставка нескольких необходимых рисунков](matlab/scripts/Latex_command/past_figures.m)			
 			+ и.т.д.			
