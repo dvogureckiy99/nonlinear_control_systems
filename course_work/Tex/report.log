@@ -1,0 +1,1297 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.12)  13 MAY 2020 01:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2020-02-02> patch level 1
+L3 programming layer <2020-02-08>
+\@input{common/setup.aux}
+\openout2 = `common/setup.aux'.
+
+(./common/setup.tex
+(c:/texlive/2019/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen134
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen135
+)
+(c:/texlive/2019/texmf-dist/tex/latex/extsizes/extsizes.sty
+Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
+
+
+Package ExtSizes Warning: It is better to use one of the extsizes classes,
+ if you can.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+LaTeX Info: The control sequence `\normalsize' is already robust on input line 
+56.
+LaTeX Info: Redefining \small on input line 58.
+LaTeX Info: Redefining \footnotesize on input line 69.
+LaTeX Info: Redefining \scriptsize on input line 80.
+LaTeX Info: Redefining \tiny on input line 81.
+LaTeX Info: Redefining \large on input line 82.
+LaTeX Info: Redefining \Large on input line 83.
+LaTeX Info: Redefining \LARGE on input line 84.
+LaTeX Info: Redefining \huge on input line 85.
+LaTeX Info: Redefining \Huge on input line 86.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrextend.sty
+Package: scrextend 2020/01/24 v3.29 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+))))
+(c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count171
+\Gm@cntv=\count172
+\c@Gm@tempcnt=\count173
+\Gm@bindingoffset=\dimen136
+\Gm@wd@mp=\dimen137
+\Gm@odd@mp=\dimen138
+\Gm@even@mp=\dimen139
+\Gm@layoutwidth=\dimen140
+\Gm@layoutheight=\dimen141
+\Gm@layouthoffset=\dimen142
+\Gm@layoutvoffset=\dimen143
+\Gm@dimlist=\toks15
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/03 3.39 The Babel package
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/03 3.39 Babel switching mechanism
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/03 3.39 Babel common definitions
+\babel@savecnt=\count174
+\U@D=\dimen144
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/xebabel.def
+(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read2
+\bbl@dirlevel=\count175
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
+Package babel Info: Making " an active character on input line 120.
+Package babel Info: Default for \cyrdash is provided on input line 157.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-08 L3 programming layer (loader) 
+
+(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count176
+\l__pdf_internal_box=\box45
+\g__pdf_backend_object_int=\count177
+\g__pdf_backend_annotation_int=\count178
+))
+Package: xparse 2020-02-08 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count179
+\g__xparse_grabber_int=\count180
+\l__xparse_m_args_int=\count181
+\l__xparse_v_nesting_int=\count182
+)
+Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+
+(c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count183
+\l__fontspec_language_int=\count184
+\l__fontspec_strnum_int=\count185
+\l__fontspec_tmp_int=\count186
+\l__fontspec_tmpa_int=\count187
+\l__fontspec_tmpb_int=\count188
+\l__fontspec_tmpc_int=\count189
+\l__fontspec_em_int=\count190
+\l__fontspec_emdef_int=\count191
+\l__fontspec_strong_int=\count192
+\l__fontspec_strongdef_int=\count193
+\l__fontspec_tmpa_dim=\dimen145
+\l__fontspec_tmpb_dim=\dimen146
+\l__fontspec_tmpc_dim=\dimen147
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+Package fontspec Warning: Ignored LuaTeX-only feature:
+(fontspec)                'Renderer=Full/Basic/Node/Base/HarfBuzz'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman/B' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman/B' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman/I' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman/I' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman/BI' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=TeX,Historic' (hlig) not
+(fontspec)                available for font 'Times New Roman/BI' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures={TeX},Renderer=Basic,Ligatures=TeX,Ligatures=
+{TeX,Historic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
+(fontspec)             New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
+
+
+Package fontspec Warning: Ignored LuaTeX-only feature:
+(fontspec)                'Renderer=Full/Basic/Node/Base/HarfBuzz'.
+
+
+Package fontspec Info: Font family 'Calibri(0)' created for font 'Calibri'
+(fontspec)             with options
+(fontspec)             [Ligatures={TeX},Renderer=Basic,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Calibri/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Calibri/OT:script=latn;language=dflt;+smcp;mapping=t
+ex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Calibri/B/OT:script=latn;language=dflt;mapping=tex-t
+ext;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Calibri/B/OT:script=latn;language=dflt;+smcp;mapping
+=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Calibri/I/OT:script=latn;language=dflt;mapping=tex-t
+ext;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Calibri/I/OT:script=latn;language=dflt;+smcp;mapping
+=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Calibri/BI/OT:script=latn;language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Calibri/BI/OT:script=latn;language=dflt;+smcp;mappin
+g=tex-text;"
+
+
+Package fontspec Warning: Ignored LuaTeX-only feature:
+(fontspec)                'Renderer=Full/Basic/Node/Base/HarfBuzz'.
+
+
+Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
+(fontspec)             New' with options
+(fontspec)             [Ligatures={TeX},Renderer=Basic,WordSpace={1,0,0},Hyphen
+Char=None,PunctuationSpace=WordSpace].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Courier
+(fontspec)             New/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Courier
+(fontspec)             New/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Courier
+(fontspec)             New/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Courier
+(fontspec)             New/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+(c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks17
+\thm@bodyfont=\toks18
+\thm@headfont=\toks19
+\thm@notefont=\toks20
+\thm@headpunct=\toks21
+\thm@preskip=\skip49
+\thm@postskip=\skip50
+\thm@headsep=\skip51
+\dth@everypar=\toks22
+)
+(c:/texlive/2019/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+
+(c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count194
+\calc@Bcount=\count195
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count196
+\calc@Cskip=\skip54
+)
+(c:/texlive/2019/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen150
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count197
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count198
+\leftroot@=\count199
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count266
+\DOTSCASE@=\count267
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count268
+\c@MaxMatrixCols=\count269
+\dotsspace@=\muskip16
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
+\tag@help=\toks24
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
+\andhelp@=\toks25
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks26
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count275
+\l_MT_multwidth_dim=\dimen159
+\origjot=\skip58
+\l_MT_shortvdotswithinadjustabove_dim=\dimen160
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen161
+\l_MT_above_intertext_sep=\dimen162
+\l_MT_below_intertext_sep=\dimen163
+\l_MT_above_shortintertext_sep=\dimen164
+\l_MT_below_shortintertext_sep=\dimen165
+)
+(c:/texlive/2019/texmf-dist/tex/latex/was/icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+)
+(c:/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen168
+\WF@size=\dimen169
+\c@WF@wrappedlines=\count276
+\WF@box=\box48
+\WF@everypar=\toks28
+Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen170
+\ar@mcellbox=\box49
+\extrarowheight=\dimen171
+\NC@list=\toks29
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box50
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen172
+\TX@old@table=\dimen173
+\TX@old@col=\dimen174
+\TX@target=\dimen175
+\TX@delta=\dimen176
+\TX@cols=\count277
+\TX@ftn=\toks30
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+\TY@count=\count278
+\TY@linewidth=\dimen177
+\tymin=\dimen178
+\tymax=\dimen179
+\TY@tablewidth=\dimen180
+)
+(c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen181
+\lightrulewidth=\dimen182
+\cmidrulewidth=\dimen183
+\belowrulesep=\dimen184
+\belowbottomsep=\dimen185
+\aboverulesep=\dimen186
+\abovetopsep=\dimen187
+\cmidrulesep=\dimen188
+\cmidrulekern=\dimen189
+\defaultaddspace=\dimen190
+\@cmidla=\count279
+\@cmidlb=\count280
+\@aboverulesep=\dimen191
+\@belowrulesep=\dimen192
+\@thisruleclass=\count281
+\@lastruleclass=\count282
+\@thisrulewidth=\dimen193
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count283
+\LTcapwidth=\dimen194
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count284
+\LT@rows=\count285
+\c@LT@tables=\count286
+\c@LT@chunks=\count287
+\LT@p@ftn=\toks31
+)
+(c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip65
+\multirow@cntb=\count288
+\multirow@dima=\skip66
+\bigstrutjot=\dimen195
+)
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen196
+\captionmargin@=\dimen197
+\captionwidth=\dimen198
+\caption@tempdima=\dimen199
+\caption@indent=\dimen256
+\caption@parindent=\dimen257
+\caption@hangindent=\dimen258
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count289
+\c@continuedfloat=\count290
+Package caption Info: longtable package is loaded.
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count291
+\c@subtable=\count292
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip67
+\f@nch@O@elh=\skip68
+\f@nch@O@erh=\skip69
+\f@nch@O@olh=\skip70
+\f@nch@O@orh=\skip71
+\f@nch@O@elf=\skip72
+\f@nch@O@erf=\skip73
+\f@nch@O@olf=\skip74
+\f@nch@O@orf=\skip75
+)
+(c:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box55
+\beforetitleunit=\skip76
+\aftertitleunit=\skip77
+\ttl@plus=\dimen259
+\ttl@minus=\dimen260
+\ttl@toksa=\toks32
+\titlewidth=\dimen261
+\titlewidthlast=\dimen262
+\titlewidthfirst=\dimen263
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count293
+\rotFPtop=\skip78
+\rotFPbot=\skip79
+\rot@float@box=\box56
+\rot@mess@toks=\toks33
+)) (./report.aux
+(./common/title_page.aux) (./components/ANNOTATION.aux)
+(./components/INTRODACTION.aux)
+(./components/OBJECT_ANALYSIS/OBJECT_ANALYSIS.aux)
+(./components/P_AND_PD_REGULATOR/P_AND_PD_REGULATOR.aux
+
+LaTeX Warning: Label `eq:key5' multiply defined.
+
+) (./components/PRINCIPLES_OF_BUILDING_VSS/PRINCIPLES_OF_BUILDING_VSS.aux
+
+LaTeX Warning: Label `eq:HP_centr' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `title:VSS_SDM' multiply defined.
+
+) (./components/VSS_slide_synthesis/VSS_slide_synthesis.aux
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+) (./components/VSS_final_synthesis/VSS_final_synthesis.aux
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+) (./components/VSS_DCS/VSS_DCS.aux) (./components/CONCLUSION.aux)
+(./components/LITERATURE.aux))
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.64719pt plus 5.62036pt minus 2.81108pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
+LaTeX Font Info:    Redeclaring math accent \check on input line 3.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 3
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+3.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Calibri(0)/m/n on input line 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Calibri(0)/b/n on input line 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/b/n on input line 3.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\openout2 = `common/title_page.aux'.
+
+(./common/title_page.tex
+\ML=\skip80
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 25
+.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+
+
+]) (./report.toc
+[1
+
+])
+\tf@toc=\write3
+\openout3 = `report.toc'.
+
+ [2]
+\openout2 = `components/ANNOTATION.aux'.
+
+ (./components/ANNOTATION.tex
+Overfull \hbox (17.54025pt too wide) in paragraph at lines 2--3
+[]\TU/TimesNewRoman(0)/m/n/14.05249 В курсовой работе необходимо определить раз
+работать управляющее устрой-
+ []
+
+) [3
+
+]
+\openout2 = `components/INTRODACTION.aux'.
+
+ (./components/INTRODACTION.tex)
+Overfull \hbox (16.12735pt too wide) in paragraph at lines 6--10
+\TU/TimesNewRoman(0)/m/n/14.05249 нелинейного элемента вида насыщение, это обст
+оятельство значительно услож-
+ []
+
+[4
+
+
+] [5]
+\openout2 = `components/OBJECT_ANALYSIS/OBJECT_ANALYSIS.aux'.
+
+ (./components/OBJECT_ANALYSIS/OBJECT_ANALYSIS.tex
+(./components/OBJECT_ANALYSIS/object_analysis_1.tex
+File: images/sim_object.pdf Graphic file (type pdf)
+<use images/sim_object.pdf>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6
+
+
+]
+File: images/sim_object_analysis.pdf Graphic file (type pdf)
+<use images/sim_object_analysis.pdf>
+File: images/object_analysis.pdf Graphic file (type pdf)
+<use images/object_analysis.pdf>
+ [7]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [8] [9]
+\openout2 = `components/P_AND_PD_REGULATOR/P_AND_PD_REGULATOR.aux'.
+
+ (./components/P_AND_PD_REGULATOR/P_AND_PD_REGULATOR.tex
+(./components/P_AND_PD_REGULATOR/hole_PR.tex)
+(./components/P_AND_PD_REGULATOR/PR.tex
+File: images/sim_P.pdf Graphic file (type pdf)
+<use images/sim_P.pdf>
+
+Overfull \hbox (0.75282pt too wide) in paragraph at lines 35--37
+\TU/TimesNewRoman(0)/m/n/14.05249 сывается линейным дифференциальным уравнением
+. Неустойчивость систе-
+ []
+
+[10
+
+
+]
+
+LaTeX Warning: Command \. invalid in math mode on input line 48.
+
+Missing character: There is no ̇ in font cmmi12!
+File: images/P_sys.pdf Graphic file (type pdf)
+<use images/P_sys.pdf>
+[11]) (./components/P_AND_PD_REGULATOR/PDR.tex
+File: images/sim_PD.pdf Graphic file (type pdf)
+<use images/sim_PD.pdf>
+
+Overfull \hbox (23.34111pt too wide) in paragraph at lines 2--10
+\TU/TimesNewRoman(0)/m/n/14.05249 для математического описания системы с пропор
+ционально-дифференциальным
+ []
+
+[12]
+
+LaTeX Warning: Command \. invalid in math mode on input line 42.
+
+Missing character: There is no ̇ in font cmmi12!
+File: images/PD_sys.pdf Graphic file (type pdf)
+<use images/PD_sys.pdf>
+) (./components/P_AND_PD_REGULATOR/hole_conclusion_PDR.tex [13])
+(./components/P_AND_PD_REGULATOR/NE_influence.tex
+File: images/NE_influence_sys.pdf Graphic file (type pdf)
+<use images/NE_influence_sys.pdf>
+ [14])
+(./components/P_AND_PD_REGULATOR/hole_influence.tex)) [15]
+\openout2 = `components/PRINCIPLES_OF_BUILDING_VSS/PRINCIPLES_OF_BUILDING_VSS.a
+ux'.
+
+
+(./components/PRINCIPLES_OF_BUILDING_VSS/PRINCIPLES_OF_BUILDING_VSS.tex
+(./components/PRINCIPLES_OF_BUILDING_VSS/find_PD.tex
+File: images/sim_linear_2_por.pdf Graphic file (type pdf)
+<use images/sim_linear_2_por.pdf>
+
+Overfull \hbox (2.36075pt too wide) in paragraph at lines 2--9
+\TU/TimesNewRoman(0)/m/n/14.05249 фазового пространства. Поясним некоторые особ
+енности фазового простран-
+ []
+
+[16
+
+
+] [17]
+File: images/linear_2_por_ft_sedlo.pdf Graphic file (type pdf)
+<use images/linear_2_por_ft_sedlo.pdf>
+File: images/linear_2_por_sv_sedlo.pdf Graphic file (type pdf)
+<use images/linear_2_por_sv_sedlo.pdf>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./components/PRINCIPLES_OF_BUILDING_VSS/find_PD_neust_focus.tex [18]
+[19] [20]
+File: images/linear_2_por_ft_focus.pdf Graphic file (type pdf)
+<use images/linear_2_por_ft_focus.pdf>
+File: images/linear_2_por_sv_focus.pdf Graphic file (type pdf)
+<use images/linear_2_por_sv_focus.pdf>
+)
+(./components/PRINCIPLES_OF_BUILDING_VSS/VSS_steady_degenerate_motion.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21
+
+] [22] [23]
+File: images/sim_VSS_steady_degenerate_motion.pdf Graphic file (type pdf)
+<use images/sim_VSS_steady_degenerate_motion.pdf>
+File: images/VSS_steady_degenerate_motion_ft_SDM.pdf Graphic file (type pdf)
+<use images/VSS_steady_degenerate_motion_ft_SDM.pdf>
+File: images/VSS_steady_degenerate_motion_sv_SDM.pdf Graphic file (type pdf)
+<use images/VSS_steady_degenerate_motion_sv_SDM.pdf>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./components/PRINCIPLES_OF_BUILDING_VSS/VSS_no_steady_degenerate_motion.tex
+[24
+
+] [25] [26]
+File: images/linear_2_por_ft_center.pdf Graphic file (type pdf)
+<use images/linear_2_por_ft_center.pdf>
+File: images/linear_2_por_sv_center.pdf Graphic file (type pdf)
+<use images/linear_2_por_sv_center.pdf>
+ [27
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28]
+File: images/sim_VSS_no_steady_degenerate_motion.pdf Graphic file (type pdf)
+<use images/sim_VSS_no_steady_degenerate_motion.pdf>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/VSS_no_steady_degenerate_motion_ft_sedlo.pdf Graphic file (type pd
+f)
+<use images/VSS_no_steady_degenerate_motion_ft_sedlo.pdf>
+File: images/VSS_no_steady_degenerate_motion_sv_sedlo.pdf Graphic file (type pd
+f)
+<use images/VSS_no_steady_degenerate_motion_sv_sedlo.pdf>
+) (./components/PRINCIPLES_OF_BUILDING_VSS/VSS_sliding_mode.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29]
+
+LaTeX Warning: Text page 30 contains only floats.
+
+[30] [31]
+Overfull \hbox (9.06969pt too wide) in paragraph at lines 3--4
+[]\TU/TimesNewRoman(0)/m/n/14.05249 Наиболее рациональной считается идея синтез
+а систем с переменной струк-
+ []
+
+File: images/VSS_steady_degenerate_motion_ft_SLM.pdf Graphic file (type pdf)
+<use images/VSS_steady_degenerate_motion_ft_SLM.pdf>
+File: images/VSS_steady_degenerate_motion_sv_SLM.pdf Graphic file (type pdf)
+<use images/VSS_steady_degenerate_motion_sv_SLM.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32
+
+])) [33] [34]
+\openout2 = `components/VSS_slide_synthesis/VSS_slide_synthesis.aux'.
+
+ (./components/VSS_slide_synthesis/VSS_slide_synthesis.tex
+(./components/VSS_slide_synthesis/VSS_3_order.tex [35
+
+
+] [36]
+Overfull \hbox (3.85988pt too wide) in paragraph at lines 80--81
+\TU/TimesNewRoman(0)/m/n/14.05249 отсутствуют экспоненты с положительной степен
+ью. Формулировка име-
+ []
+
+(./components/VSS_slide_synthesis/hole_Parameter_Calculation_Algorithm.tex
+[37] [38]) [39]
+File: images/sim_VSS_P.pdf Graphic file (type pdf)
+<use images/sim_VSS_P.pdf>
+File: images/VSS_P_ft_VSS_P_2.pdf Graphic file (type pdf)
+<use images/VSS_P_ft_VSS_P_2.pdf>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/VSS_P_sv_VSS_P.pdf Graphic file (type pdf)
+<use images/VSS_P_sv_VSS_P.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40] [41]
+File: images/Bode_diagram_alpha.pdf Graphic file (type pdf)
+<use images/Bode_diagram_alpha.pdf>
+File: images/Bode_diagram_beta.pdf Graphic file (type pdf)
+<use images/Bode_diagram_beta.pdf>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [42] [43] [44]
+\openout2 = `components/VSS_final_synthesis/VSS_final_synthesis.aux'.
+
+ (./components/VSS_final_synthesis/VSS_final_synthesis.tex
+(./components/VSS_final_synthesis/relay_system.tex
+File: images/sim_relay_system.pdf Graphic file (type pdf)
+<use images/sim_relay_system.pdf>
+
+Overfull \hbox (17.70155pt too wide) in paragraph at lines 10--11
+[]\TU/TimesNewRoman(0)/m/n/14.05249 Система состоит из линейной части, релейног
+о элемента и пропорционально-
+ []
+
+[45
+
+
+]
+Overfull \hbox (2.33391pt too wide) in paragraph at lines 23--24
+[]\TU/TimesNewRoman(0)/m/n/14.05249 Определим с помощью моделирования параметры
+ пропорционально- диф-
+ []
+
+File: images/relay_system_ft_relay_2.pdf Graphic file (type pdf)
+<use images/relay_system_ft_relay_2.pdf>
+File: images/relay_system_sv_relay.pdf Graphic file (type pdf)
+<use images/relay_system_sv_relay.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Missing character: There is no Н in font cmmi10!
+Missing character: There is no Э in font cmmi12!
+[46] [47]
+(./components/VSS_final_synthesis/hole_phase_altitude_Calculation_Algorithm.tex
+[48])
+File: images/relay_find_param.pdf Graphic file (type pdf)
+<use images/relay_find_param.pdf>
+) (./components/VSS_final_synthesis/final_VSS.tex [49]
+File: images/sim_final_VSS.pdf Graphic file (type pdf)
+<use images/sim_final_VSS.pdf>
+File: images/final_VSS_PWM_k2.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_k2.pdf>
+File: images/final_VSS_PWM_k2_zoom.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_k2_zoom.pdf>
+ [50
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/final_VSS_PWM_ab.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_ab.pdf>
+File: images/final_VSS_PWM_c1c2.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_c1c2.pdf>
+File: images/final_VSS_PWM_c1c2_zoom.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_c1c2_zoom.pdf>
+
+Overfull \hbox (6.40965pt too wide) in paragraph at lines 24--40
+[]\TU/TimesNewRoman(0)/m/n/14.05249 Теперь рассмотрим коэффициенты, влияющие на
+ ПП ”в малом”: $\OML/cmm/m/it/14.4 C\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ;C\OT
+1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 ;a;b$\TU/TimesNewRoman(0)/m/n/14.05249 .
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/final_VSS_ft_VSS_final_2_mal.pdf Graphic file (type pdf)
+<use images/final_VSS_ft_VSS_final_2_mal.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/final_VSS_sv_VSS_final_mal.pdf Graphic file (type pdf)
+<use images/final_VSS_sv_VSS_final_mal.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/final_VSS_ft_VSS_final_2_bol.pdf Graphic file (type pdf)
+<use images/final_VSS_ft_VSS_final_2_bol.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/final_VSS_sv_VSS_final_bol.pdf Graphic file (type pdf)
+<use images/final_VSS_sv_VSS_final_bol.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [52] [53] [54] [55] [56]
+\openout2 = `components/VSS_DCS/VSS_DCS.aux'.
+
+ (./components/VSS_DCS/VSS_DCS.tex
+(./components/VSS_DCS/DCS.tex
+File: images/sim_final_VSS_PWM.pdf Graphic file (type pdf)
+<use images/sim_final_VSS_PWM.pdf>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/final_VSS_PWM_a.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_a.pdf>
+File: images/final_VSS_PWM_a_zoom.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_a_zoom.pdf>
+[57
+
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.11243pt too wide) in paragraph at lines 52--57
+\TU/TimesNewRoman(0)/m/n/14.05249 стоянии, при его увеличении колебания уменьша
+ются. Путем последователь-
+ []
+
+File: images/final_VSS_PWM_Ts45_gran.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_Ts45_gran.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/final_VSS_PWM_sv_DCS_mal.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_sv_DCS_mal.pdf>
+File: images/final_VSS_PWM_sv_DCS_bol.pdf Graphic file (type pdf)
+<use images/final_VSS_PWM_sv_DCS_bol.pdf>
+File: images/final_VSS_PWM_DCS_SAW.png Graphic file (type bmp)
+<images/final_VSS_PWM_DCS_SAW.png>
+File: images/final_VSS_PWM_DCS_PWM.png Graphic file (type bmp)
+<images/final_VSS_PWM_DCS_PWM.png>
+File: images/final_VSS_PWM_DCS_upr.png Graphic file (type bmp)
+<images/final_VSS_PWM_DCS_upr.png>
+File: images/final_VSS_PWM_DCS_upr_ogr.png Graphic file (type bmp)
+<images/final_VSS_PWM_DCS_upr_ogr.png>
+File: images/final_VSS_PWM_DCS_upr_ogr_dig.png Graphic file (type bmp)
+<images/final_VSS_PWM_DCS_upr_ogr_dig.png>
+
+Overfull \hbox (2.31044pt too wide) in paragraph at lines 66--99
+\TU/TimesNewRoman(0)/m/n/14.05249 14.42 сек. Время переходного процесса при отк
+лонении ”в большом”согласно
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [58] [59] [60] [61] [62] [63] [64]
+\openout2 = `components/CONCLUSION.aux'.
+
+ (./components/CONCLUSION.tex
+Overfull \hbox (2.96628pt too wide) in paragraph at lines 6--7
+[]\TU/TimesNewRoman(0)/m/n/14.05249 В результате проделанной работы, было разра
+ботано управляющее устрой-
+ []
+
+) [65
+
+
+]
+\openout2 = `components/LITERATURE.aux'.
+
+ (./components/LITERATURE.tex) [66
+
+
+] (./report.aux
+(./common/title_page.aux) (./components/ANNOTATION.aux)
+(./components/INTRODACTION.aux)
+(./components/OBJECT_ANALYSIS/OBJECT_ANALYSIS.aux)
+(./components/P_AND_PD_REGULATOR/P_AND_PD_REGULATOR.aux)
+(./components/PRINCIPLES_OF_BUILDING_VSS/PRINCIPLES_OF_BUILDING_VSS.aux)
+(./components/VSS_slide_synthesis/VSS_slide_synthesis.aux)
+(./components/VSS_final_synthesis/VSS_final_synthesis.aux)
+(./components/VSS_DCS/VSS_DCS.aux) (./components/CONCLUSION.aux)
+(./components/LITERATURE.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10399 strings out of 479827
+ 227510 string characters out of 5897324
+ 552673 words of memory out of 5000000
+ 27127 multiletter control sequences out of 15000+600000
+ 535473 words of font info for 75 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 51i,17n,96p,1633b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on report.pdf (67 pages).

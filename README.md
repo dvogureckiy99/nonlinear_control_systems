@@ -10,3 +10,4 @@ TeXstudio 2.12.22 (git 2.12.22) |
 Using Qt Version 5.12.1, compiled with Qt 5.12.1 R  |
 
 [`Лабораторная работа`](lab_6/README.md)
+[`Курсовая работа`](course_work/README.md)

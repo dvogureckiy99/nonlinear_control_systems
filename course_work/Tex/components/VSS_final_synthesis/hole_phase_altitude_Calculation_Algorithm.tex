@@ -1,0 +1,33 @@
+\begin{verbatim}
+%% вывод ХП 
+syms p w real;
+u= k(1) + k(2)*p ;
+den=(T^2*p^3+2*h*T*p^2+p) ;
+W=K*u/den;
+W1=-1/W
+W1=subs(W1,p,1i*w)
+re=simplify(real(W1))
+im=simplify(imag(W1))
+%% solve
+syms w ;
+assume(w > 0);
+w = double(solve(im,w))
+syms A;
+Wne=4/(pi*A)*(sqrt(1-(d/A)^2));
+A = double(solve(Wne-double(subs(re,'w',w)),A))
+%% graphic
+step=w/100;
+wz=0:step:w;
+rele=double(subs(re,'w',wz));
+imle=double(subs(im,'w',wz));
+
+hold on,grid on
+plot(rele,imle);
+xlabel('Re'),ylabel('Im')
+
+step=(min(A)-d)/100;
+Az=d:step:min(A)+step;
+rene=double(subs(Wne,'A',Az));
+imne=zeros(length(rene));
+plot(rene,imne);
+\end{verbatim}

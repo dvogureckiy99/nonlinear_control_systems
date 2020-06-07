@@ -1,0 +1,27 @@
+\babel@toc {russian}{}
+\contentsline {section}{Аннотация}{3}%
+\contentsline {section}{Введение}{4}%
+\contentsline {section}{\numberline {1}Изучение свойств управляемого объекта}{6}%
+\contentsline {subsection}{\numberline {1.1}Исходные данные}{6}%
+\contentsline {subsection}{\numberline {1.2}Модель объекта в виде СС}{6}%
+\contentsline {subsection}{\numberline {1.3}Модель объекта в виде дифференциального уравнения }{7}%
+\contentsline {subsection}{\numberline {1.4}Модель управляемого объекта в пространстве состояний }{7}%
+\contentsline {subsection}{\numberline {1.5}Исследование системы подачей на вход типового воздействия}{7}%
+\contentsline {section}{\numberline {2}Обоснование выбора структуры системы управления}{10}%
+\contentsline {subsection}{\numberline {2.1}Исследование системы с пропорциональным регулятором}{10}%
+\contentsline {subsection}{\numberline {2.2}Исследование системы управления с \\ пропорционально-дифференциальным регулятором}{12}%
+\contentsline {subsection}{\numberline {2.3}Оценка влияния нелинейного элемента на свойства линейной системы}{15}%
+\contentsline {section}{\numberline {3}Принципы построения систем с переменной структурой}{16}%
+\contentsline {subsection}{\numberline {3.1}Находим коэффициенты для системы с фазовой траекторией типа <<седло>>}{16}%
+\contentsline {subsection}{\numberline {3.2}Находим коэффициенты для системы с фазовой траекторией типа <<неустойчивый фокус>>}{21}%
+\contentsline {subsection}{\numberline {3.3}Система с переменной структурой с устойчивым вырожденным движением}{24}%
+\contentsline {subsection}{\numberline {3.4}Система с переменной структурой без устойчивого вырожденного движения}{27}%
+\contentsline {subsection}{\numberline {3.5}Система с переменной структурой со скользящим режимом движения}{32}%
+\contentsline {section}{\numberline {4}Синтез СПС со скользящим режимом методами фазового пространства}{35}%
+\contentsline {subsection}{\numberline {4.1}Синтез управляющего устройства СПС третьего порядка без учета нелинейности}{35}%
+\contentsline {section}{\numberline {5}Синтез нелинейной СПС при больших отклонениях от равновесного состояния}{45}%
+\contentsline {subsection}{\numberline {5.1}Анализ и синтез релейной системы}{45}%
+\contentsline {subsection}{\numberline {5.2}Исследование свойств спроектированной нелинейной СПС}{50}%
+\contentsline {section}{\numberline {6}Исследование влияния широтно-импульсной модуляции на качество проектируемой системы}{57}%
+\contentsline {section}{Заключение}{65}%
+\contentsline {section}{Список использованной литературы}{66}%

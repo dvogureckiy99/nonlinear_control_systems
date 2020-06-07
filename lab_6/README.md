@@ -24,10 +24,12 @@
 	REPLACEINFILE replaces characters in ASCII file using PERL
 	
 	+ [Главный скрипт на языке MATLAB, создающий код на языке LaTex](matlab/make_report.m)
-	
+
 	+ Для реализации вспомогательных функций созданы:
-		- [вставка необходимых рисунков](matlab/past_figure.m)
+
 		- Быстрое написание LaTex команд:
 			+ [just make a text string into latex document named by fid](matlab/scripts/Latex_command/latex_text.m)
-			+ [Past image in tex document](matlab/scripts/Latex_command/tex_past_figure.m)
-			
+			+ [Past one image in tex document](matlab/scripts/Latex_command/text_past_figure.m)
+			+ [вставка нескольких необходимых рисунков](matlab/past_figure.m)			
+			+ и.т.д.
+		
